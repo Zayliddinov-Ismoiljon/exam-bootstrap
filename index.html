@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam-bootsrap</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+                <div class="col-12 d-flex justify-content-between pt-4">
+                    <div class="col-8 p-3 border">
+                        <h1 class="h1 mb-5">Payment information</h1>
+                            <div class="form">
+                                <label class="text text-secondary mb-3" for="parol">CARD NUMBER</label>
+                            <input type="password" class="form-control" name="parol" id="parol" placeholder="***" required>
+                            </div> 
+                        <form class="form d-flex">
+                            <div class=" w-50">
+                                <label class="text text-secondary my-3" for="ism">CARD HOLDER</label>
+                                <input type="text" class="form-control " name="ism" id="ism" placeholder="Michael Jordan" required>
+                            </div>
+                            <div class="w-25 ms-2 me-2">
+                                <label class="text text-secondary my-3" for="sana">EXP.DATE</label>
+                                <input type="date" class="form-control " name="sana" id="sana" placeholder="03/19">
+                            </div>
+                            <div class="w-25">
+                                <label class="text text-secondary my-3" for="kod">CVC</label>
+                                <input type="password" class="form-control " name="kod" id="kod" placeholder="***" required>
+                            </div>
+                        </form>
+                    </div>
+        
+        
+                    <div class="col-4 border  p-3 ms-2">
+                        <ul class="list-group  list-group-flush ">
+                            <li class="list-group-item w-100 ps-0 mb-3 pe-0">
+                                <div class="d-flex align-items-center p-3  justify-content-between">
+                                    <button type="button" class="btn btn-light position-relative border w-25">
+                                        <img class="w-100" src="./image/cofe.jfif" alt="cofe image">
+                                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-circle p-2 bg-primary">
+                                          2
+                                          <span class="visually-hidden">unread messages</span>
+                                        </span>
+                                      </button>
+                                      <h3 class="h3 ms-3 fs-6 m-0 p-0">Chocolate Bar</h3>
+                                      <strong class="text fs-5 ">$2.49</strong>
+                                </div>
+                            </li>
+    
+                            <li class="list-group-item w-100 ps-0 pe-0">
+                                <div class=" p-3  d-flex align-items-center justify-content-between">
+                                    <div class="d-flex flex-column">
+                                        <h3 class="h3 fs-6 m-0 p-0">Subtotal</h3>
+                                        <h3 class="h3 fs-6 m-0 p-0">Shipping</h3>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <strong class="m-0 p-0">$4.98</strong>
+                                        <strong class="m-0 p-0">$3.00</strong>
+                                    </div>
+                                </div>
+                            </li>
+    
+    
+                            <li class="list-group-item w-100 ps-0 pe-0">
+                                <div class=" p-3  d-flex align-items-center justify-content-between">
+                                    <div class="d-flex flex-column">
+                                        <h3 class="h3 fs-6 m-0 p-0">Total</h3>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <strong class="m-0 p-0">$4.98</strong>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="col-8 p-3 border my-5">
+                    <h2 class="h2 my-3">Billing Adress</h2>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item ps-0 ">
+                            <div class="form-check align-items-center d-flex">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" required>
+                                <label class="form-check-label fs-5 ms-2" for="flexRadioDefault1">
+                                  Same as shipping address
+                                </label>
+                              </div>
+                        </li>
+                        <li class="list-group-item ps-0 ">
+                            <div class="form-check align-items-center d-flex">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" required>
+                                <label class="form-check-label fs-5 ms-2" for="flexRadioDefault1">
+                                  Same as billing address
+                                </label>
+                              </div>
+                        </li>
+                    </ul>
+                </div> 
+    
+                <div class="col-8 d-flex justify-content-between">
+                    <a href="#" class="text-decoration-none">Return to shipping method</a>
+                    <button class="btn btn-primary text-light" type="submit">Complate order</button>
+                </div>
+        
+    </div>
+</body>
+</html>
